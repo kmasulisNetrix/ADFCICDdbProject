@@ -1,7 +1,7 @@
 # dependency-review.yml
 name: 'Dependency Review'
-on:
-  push:
+on:  
+  pull_request:
     branches: [ "main" ]
     paths-ignore:
       - '**/.github/workflows/**'
